@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	height: 100vh;
+	background: #5dcccc;
+}
+.app{
+	/*height: 100vh;
+	background: lightgreen;*/
+	/*display: flex;*/
+	/*z-index: 0;*/
+}
+.test2{
+	/*height: 100vh;*/
+	/*z-index: -1;*/
+	background: yellow;
+}
+/*@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}*/
+.header{
+	height: 20vh;
+}
+.header h2{
+	font-size: 4rem;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.header p{
+    padding: 30px;
+    font-size: 2rem;
+    color: #423d3d;
+}
+section{
+	/*display: flex;
+	justify-content: center;
+	align-content: center;*/
+}
+.goal{
+	height: 40vh;
+	width: 80%;
+    display: flex;
+    justify-content: start;
+    color: #efefef;
+    padding: 30px;
+    margin: 40px 0 0 0;
+    font-size: 3rem;
+}
+.slidecontainer{
+	width: 65%;
+    height: 20vh;
+    margin: auto;
+}
+.text{
+	display: grid;
+    grid-template-columns: 350px 350px;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.session{
+	color: white;
+	
+}
+.minutes{
+	color: white;
+	margin-left: auto;
+}
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 50px;
+  height: 50px;
+  background: white;
+  cursor: pointer;
+  border-radius: 50px;
+}
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 20px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+  border-radius: 20px;
+}
+.footer{
+
+}
+footer{
+	height: 10vh;
+}
+footer button{
+	cursor: pointer;
+    /*color: #75f9ff;*/
+    font-size: 2em;
+    border: 1px solid #bbb;
+    transition: all 0.3s linear;
+    border-radius: 60px;
+    margin-left: 11%;
+    padding: 15px 300px 20px;
+}
+.start a{
+	text-decoration: none;
+    color: #75f9ff;
+}
+.exercise{
+	text-align: center;
+    font-size: 1.3em;
+    /*font-family: cursive;*/
+    padding-top: 210px;
+}
+.content{
+
+}
+.time-elapsed{
+    /*position: relative;
+    top: 230px;*/
+  	padding-top: 215px;;
+}
+.time-left{
+
+}
+.breath{
+	color: white;
+	font-size: 30px;
+    font-family: sans-serif;
+}
+.intro{
+	font-size: 18px;
+    padding-top: 10px;
+}
+.skip{
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.skip a{
+	text-decoration: none;
+	color: black;
+}
+@media only screen and (max-width: 400px) {
+    .time-elapsed {
+       padding-top: 400px;
+       font-size: 2px;
+    }
+    .exercise{
+    	padding-top: 300px;
+       font-size: 	2px;
+    }
+}
+button {
+	cursor: pointer;
+}

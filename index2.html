@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge" /> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> -->
+    <link rel="stylesheet" href="./style2.css" />
+    <title>Mindful App</title>
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <h2>Mindful breathing</h2>
+        <p class="class-intro">
+          Based on your emotion we recommend you this exercise,Hussain?
+       </p>
+      </header>
+      <section class="body">
+        <div class="goal">
+          Concentrate on your breath and follow the breathing guide.
+        </div>
+        <div class="slidecontainer">
+          <div class="text">
+            <div class="session">
+              <p>Session Length</p>              
+            </div>
+            <div class="minutes">
+              <p><span class="demo">0</span> minutes</p>                
+            </div>
+          </div>
+          <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+          <!-- <p>value:<span class="demo">0</span></p> -->
+        </div>
+      </section>
+      <footer>
+        <div class="footer">
+          <!-- <button class="start"> Start Now </button>           -->
+          <button class="start"> <a href="exercise.html">Start Now</a> </button>          
+        </div>
+        <div>
+          <audio class="song">
+                <source src="./sounds/rain.mp3" />
+          </audio>
+        </div>
+        <h3 class="time-left">0:00</h3> 
+      </footer>
+    </div>
+    <script src="app2.js"></script>
+  </body>
+</html>
